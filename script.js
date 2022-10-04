@@ -1,5 +1,7 @@
 window.onload = function() {
   console.log("Test");
+  var button_holder = document.getElementsByClassName("button-holder")[0];
+
   let btn = document.createElement("button");
   btn.onclick = function() {
     console.log("Button Start")
@@ -9,7 +11,7 @@ window.onload = function() {
   }
   btn.innerHTML = "Click Me";
   btn.id = "btn"
-  document.body.appendChild(btn);
+ button_holder.appendChild(btn);
   
   let btn2 = document.createElement("button");
   btn2.onclick = function() {
@@ -19,5 +21,5 @@ window.onload = function() {
   }
   btn2.innerHTML = "Click Me Too";
   btn2.id = "btn2"
-  document.body.appendChild(btn);
+  button_holder.appendChild(btn);
 }
