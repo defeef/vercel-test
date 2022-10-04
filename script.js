@@ -10,7 +10,8 @@ window.onload = function() {
   btn.innerHTML = "Click Me";
   btn.id = "btn"
   document.body.appendChild(btn);
-  let btn2 = document.createElement("button2");
+  
+  let btn2 = document.createElement("button");
   btn2.onclick = function() {
     console.log("Button Start")
     // Say stuff
