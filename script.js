@@ -24,6 +24,6 @@ window.onload = function() {
   }
   btn2.innerHTML = "Click Me Too";
   //btn2.id = "btn2"
-  button_holder.appendChild(btn);
+  button_holder.appendChild(btn2);
   console.log(document.getElementsByClassName("button-holder")[0]);
 }
