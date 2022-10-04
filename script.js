@@ -4,14 +4,13 @@ window.onload = function() {
 
   let btn = document.createElement("button");
   btn.onclick = function() {
-    console.log("Button Start")
     var audio = new Audio("jumpscare.mp3");
     audio.play();
-    console.log("Button End")
   }
   btn.innerHTML = "Click Me";
-  btn.id = "btn"
- button_holder.appendChild(btn);
+  btn.id = "btn";
+  button_holder.appendChild(btn);
+  console.log(document.getElementsByClassName("button-holder")[0]);
   
   let btn2 = document.createElement("button");
   btn2.onclick = function() {
