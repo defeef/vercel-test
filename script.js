@@ -8,6 +8,7 @@ window.onload = function() {
     console.log("Button End")
   }
   btn.innerHTML = "Click Me";
+  btn.id = "btn"
   document.body.appendChild(btn);
   let btn2 = document.createElement("button2");
   btn2.onclick = function() {
@@ -15,6 +16,7 @@ window.onload = function() {
     // Say stuff
     console.log("Button End")
   }
-  btn2.innerHTML = "Click Me";
+  btn2.innerHTML = "Click Me Too";
+  btn2.id = "btn2"
   document.body.appendChild(btn);
 }
