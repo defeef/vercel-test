@@ -1,5 +1,5 @@
 window.onload = function() {
-  console.log("Test");
+  // Buttons
   var button_holder = document.getElementsByClassName("button-holder")[0];
 
   let btn = document.createElement("button");
@@ -15,11 +15,12 @@ window.onload = function() {
   let btn2 = document.createElement("button2");
   btn2.onclick = function() {
     console.log("Button Start")
-    // Say stuff
-    var msg = new SpeechSynthesisUtterance();
-    msg.text = "Hello World";
-    window.speechSynthesis.speak(msg);
-    //
+    let video = document.getElementById("glitch-video");
+    if (video.onplaying) {
+      video.pause();
+    } else {
+      video.play();
+    }
     console.log("Button End")
   }
   btn2.textContent = "Click Me Too";
