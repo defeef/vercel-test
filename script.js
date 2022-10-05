@@ -1,3 +1,5 @@
+let web_root = "https://vercel-test-defeef.vercel.app/";
+
 window.onload = function() {
   // Buttons
   var button_holder = document.getElementsByClassName("button-holder")[0];
@@ -27,4 +29,15 @@ window.onload = function() {
   btn2.id = "btn2"
   btn2.classList.add("btn")
   button_holder.appendChild(btn2);
+
+  let btn3 = document.createElement("button2");
+  btn2.onclick = function() {
+    console.log("Button Start")
+    window.location.href = ""
+    console.log("Button End")
+  }
+  btn3.textContent = "Click Me Too";
+  btn3.id = "btn3"
+  btn3.classList.add("btn")
+  button_holder.appendChild(btn3);
 }
