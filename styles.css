@@ -35,6 +35,6 @@
 }
 
 video {
-  width: min-content;
-  height: min-content;
+  width: max-content;
+  height: max-content;
 }
