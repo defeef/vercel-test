@@ -11,6 +11,7 @@ window.onload = function() {
   }
   btn.textContent = "Click Me";
   btn.id = "btn1";
+  btn.setAttribute("type", "button");
   btn.classList.add("btn");
   button_holder.appendChild(btn);
   
@@ -27,6 +28,7 @@ window.onload = function() {
   }
   btn2.textContent = "Click Me Too";
   btn2.id = "btn2";
+  btn2.setAttribute("type", "button");
   btn2.classList.add("btn");
   button_holder.appendChild(btn2);
 
