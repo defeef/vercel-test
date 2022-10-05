@@ -35,5 +35,6 @@
 }
 
 video {
-  width: 100px;
+  width: min-content;
+  height: min-content;
 }
