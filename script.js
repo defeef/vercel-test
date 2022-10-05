@@ -7,8 +7,8 @@ window.onload = function() {
     var audio = new Audio("jumpscare.mp3");
     audio.play();
   }
-  btn.innerHTML = "Click Me";
-  btn.id = "btn";
+  btn.textContent = "Click Me";
+  btn.id = "btn1";
   button_holder.appendChild(btn);
   
   let btn2 = document.createElement("button2");
@@ -21,7 +21,7 @@ window.onload = function() {
     //
     console.log("Button End")
   }
-  btn2.innerHTML = "Click Me Too";
-  //btn2.id = "btn2"
+  btn2.textContent = "Click Me Too";
+  btn2.id = "btn2"
   button_holder.appendChild(btn2);
 }
