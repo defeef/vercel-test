@@ -35,6 +35,7 @@
 }
 
 video {
+  padding: 10px;
   width: max-content;
   height: max-content;
 }
