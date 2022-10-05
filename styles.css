@@ -20,10 +20,6 @@
   text-decoration: none;
 }
 
-.btn:focus {
-  opacity: .8;
-}
-
 .btn:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -35,5 +31,5 @@
 }
 
 .btn:active {
-  opacity: .0;
+  opacity: .9;
 }
