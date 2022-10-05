@@ -2,7 +2,7 @@ window.onload = function() {
   console.log("Test");
   var button_holder = document.getElementsByClassName("button-holder")[0];
 
-  let btn = button_holder.createElement("button");
+  let btn = document.body.createElement("button");
   btn.onclick = function() {
     var audio = new Audio("jumpscare.mp3");
     audio.play();
@@ -12,7 +12,7 @@ window.onload = function() {
   btn.classList.add("btn")
   button_holder.appendChild(btn);
   
-  let btn2 = button_holder.createElement("button2");
+  let btn2 = document.body.createElement("button2");
   btn2.onclick = function() {
     console.log("Button Start")
     // Say stuff
