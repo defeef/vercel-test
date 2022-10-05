@@ -21,7 +21,7 @@
 }
 
 .btn:focus {
-  opacity: .0;
+  opacity: .8;
 }
 
 .btn:hover {
