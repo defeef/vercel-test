@@ -25,7 +25,7 @@ window.onload = function() {
     }
     console.log("Button End")
   }
-  btn2.textContent = "Click Me Too";
+  btn2.textContent = "Click Me Also";
   btn2.id = "btn2"
   btn2.classList.add("btn")
   button_holder.appendChild(btn2);
