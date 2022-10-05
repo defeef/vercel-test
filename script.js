@@ -16,10 +16,10 @@ window.onload = function() {
   btn2.onclick = function() {
     console.log("Button Start")
     let video = document.getElementById("glitch-video");
-    if (video.onplaying) {
-      video.pause();
-    } else {
+    if (video.paused) {
       video.play();
+    } else {
+      video.pause();
     }
     console.log("Button End")
   }
