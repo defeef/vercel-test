@@ -33,7 +33,7 @@ window.onload = function() {
   let btn3 = document.createElement("button2");
   btn2.onclick = function() {
     console.log("Button Start")
-    window.location.href = ""
+    window.location.href = "https://google.com"
     console.log("Button End")
   }
   btn3.textContent = "Click Me Also";
