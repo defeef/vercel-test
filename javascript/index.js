@@ -38,7 +38,7 @@ window.onload = function() {
     window.location.href = "html/about.html";
     console.log("Button End");
   }
-  btn3.textContent = "Click Me Also";
+  btn3.textContent = "Click Me For Info";
   btn3.id = "btn3";
   btn3.classList.add("btn");
   button_holder.appendChild(btn3);
