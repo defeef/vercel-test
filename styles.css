@@ -33,3 +33,7 @@
 .btn:active {
   opacity: .9;
 }
+
+video {
+  object-fit: contain;
+}
