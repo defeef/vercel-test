@@ -32,7 +32,7 @@ window.onload = function() {
   btn2.classList.add("btn");
   button_holder.appendChild(btn2);
 
-  /*let btn3 = document.createElement("button3");
+  let btn3 = document.createElement("button3");
   btn2.onclick = function() {
     console.log("Button Start");
     window.location.href = "html/about.html";
@@ -41,5 +41,5 @@ window.onload = function() {
   btn3.textContent = "Click Me Also";
   btn3.id = "btn3";
   btn3.classList.add("btn");
-  button_holder.appendChild(btn3);*/
+  button_holder.appendChild(btn3);
 }
