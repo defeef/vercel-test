@@ -35,5 +35,5 @@
 }
 
 video {
-  object-fit: contain;
+  width: fit-content;
 }
