@@ -33,7 +33,7 @@ window.onload = function() {
   button_holder.appendChild(btn2);
 
   let btn3 = document.createElement("button3");
-  btn2.onclick = function() {
+  btn3.onclick = function() {
     console.log("Button Start");
     window.location.href = "html/about.html";
     console.log("Button End");
