@@ -11,6 +11,6 @@ window.onload = function() {
   }
   btn.textContent = "Return to Home";
   btn.id = "btn1";
-  btn.classList.add("btn")
+  btn.classList.add("btn");
   button_holder.getElementsByClassName("return").appendChild(btn);
 }

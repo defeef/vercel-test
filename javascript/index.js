@@ -11,12 +11,12 @@ window.onload = function() {
   }
   btn.textContent = "Click Me";
   btn.id = "btn1";
-  btn.classList.add("btn")
+  btn.classList.add("btn");
   button_holder.appendChild(btn);
   
   let btn2 = document.createElement("button2");
   btn2.onclick = function() {
-    console.log("Button Start")
+    console.log("Button Start");
     let video = document.getElementById("glitch-video");
     if (video.paused) {
       video.play();
@@ -26,18 +26,18 @@ window.onload = function() {
     console.log("Button End")
   }
   btn2.textContent = "Click Me Too";
-  btn2.id = "btn2"
-  btn2.classList.add("btn")
+  btn2.id = "btn2";
+  btn2.classList.add("btn");
   button_holder.appendChild(btn2);
 
-  let btn3 = document.createElement("button2");
+  let btn3 = document.createElement("button3");
   btn2.onclick = function() {
-    console.log("Button Start")
-    window.location.href = "https://google.com"
-    console.log("Button End")
+    console.log("Button Start");
+    window.location.href = web_root + "/html/about.html";
+    console.log("Button End");
   }
   btn3.textContent = "Click Me Also";
-  btn3.id = "btn3"
-  btn3.classList.add("btn")
+  btn3.id = "btn3";
+  btn3.classList.add("btn");
   button_holder.appendChild(btn3);
 }
