@@ -1,5 +1,3 @@
-let web_root = "https://vercel-test-defeef.vercel.app/";
-
 window.onload = function() {
   // Buttons
   var button_holder = document.getElementsByClassName("button-holder")[0];
