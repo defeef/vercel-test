@@ -25,7 +25,7 @@ window.onload = function() {
     }
     console.log("Button End")
   }
-  btn2.textContent = "Click Me Also";
+  btn2.textContent = "Click Me Too";
   btn2.id = "btn2"
   btn2.classList.add("btn")
   button_holder.appendChild(btn2);
@@ -36,7 +36,7 @@ window.onload = function() {
     window.location.href = ""
     console.log("Button End")
   }
-  btn3.textContent = "Click Me Too";
+  btn3.textContent = "Click Me Also";
   btn3.id = "btn3"
   btn3.classList.add("btn")
   button_holder.appendChild(btn3);
