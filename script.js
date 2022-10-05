@@ -9,6 +9,7 @@ window.onload = function() {
   }
   btn.textContent = "Click Me";
   btn.id = "btn1";
+  btn.classList.add("btn")
   button_holder.appendChild(btn);
   
   let btn2 = document.createElement("button2");
@@ -23,5 +24,6 @@ window.onload = function() {
   }
   btn2.textContent = "Click Me Too";
   btn2.id = "btn2"
+  btn2.classList.add("btn")
   button_holder.appendChild(btn2);
 }
