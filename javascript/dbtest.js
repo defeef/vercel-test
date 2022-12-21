@@ -1,4 +1,4 @@
-import { initThinBackend, ensureIsUser, getCurrentUser } from 'node_modules/thin-backend';
+import { initThinBackend, ensureIsUser, getCurrentUser } from '../thin-backend';
 
 initThinBackend({
   host: "postgresql://HyHeefzPeljBxyrgvaQQodofjbqdlKon:EAJUmATatonjxLACSnOHPqmInXSbiYFc@db.thin.dev/5f17aaf2-5fa0-48e6-ac01-e66805146136"
