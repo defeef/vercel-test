@@ -7,10 +7,10 @@
     "thin-backend-react": "^0.10.1"
   },
   "description": "Test website for vercel host",
-  "main": "index.js",
+  "main": "javascript/index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "node javascript/index.js"
   },
   "repository": {
     "type": "git",
