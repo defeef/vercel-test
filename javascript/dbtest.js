@@ -1,7 +1,7 @@
 import { initThinBackend, ensureIsUser, getCurrentUser } from "/node_modules/thin-backend";
 
 initThinBackend({
-  host: "${BACKEND_URL}"
+  host: `${BACKEND_URL}`
 });
 
 const user = getCurrentUser();
