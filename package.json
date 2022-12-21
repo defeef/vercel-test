@@ -1,6 +1,24 @@
 {
+  "name": "vercel-test",
+  "version": "1.0.0",
+  "author": "Defeef",
   "dependencies": {
     "thin-backend": "^0.12.1",
     "thin-backend-react": "^0.10.1"
-  }
+  },
+  "description": "Test website for vercel host",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defeef/vercel-test.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defeef/vercel-test/issues"
+  },
+  "homepage": "https://github.com/defeef/vercel-test#readme"
 }
