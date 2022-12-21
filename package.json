@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "thin-backend": "^0.12.1",
+    "thin-backend-react": "^0.10.1"
+  }
+}
