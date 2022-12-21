@@ -1,4 +1,4 @@
-import { initThinBackend, ensureIsUser, getCurrentUser } from '/node_modules/thin-backend';
+import { initThinBackend, ensureIsUser, getCurrentUser } from "/node_modules/thin-backend";
 
 initThinBackend({
   host: "${BACKEND_URL}"
