@@ -3,6 +3,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
+
 app.get('/', function(req, res) {
   var mascots = [
     { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012},
