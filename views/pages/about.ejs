@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="/javascript/about.js"></script>
+      <%- include('../partials/head'); %>
   </head>
+  <body class="container">
 
-  <body class="">
-    <h1>About</h1>
-    <div class="button-holder">
-      <a href="/index.html" class="return">
-        <button class="btn">Return to Home</button>
-      </a>
-    </div>
+  <header>
+      <%- include('../partials/header', {variant: "compact"}); %>
+  </header>
+
+  <main>
+  <div class="row">
+      <div class="col-sm-8">
+          <div class="jumbotron">
+              <h1>This is great</h1>
+              <p>Welcome to templating using EJS</p>
+          </div>
+      </div>
+
+      <div class="col-sm-4">
+          <div class="well">
+              <h3>Look I'm A Sidebar!</h3>
+          </div>
+      </div>
+
+  </div>
+  </main>
+
+  <footer>
+      <%- include('../partials/footer'); %>
+  </footer>
+
   </body>
 </html>

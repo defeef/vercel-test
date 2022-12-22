@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 })
 
 app.get("/about", function(req, res) {
-  res.render("/views/pages/about.ejs");
+  res.render("pages/about.ejs");
 });
 
 app.listen(8080);
