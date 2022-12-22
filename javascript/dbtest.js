@@ -1,4 +1,19 @@
+require("dotenv").config();
+const express = require("express");
+const session = require("express-session");
+
 import { initThinBackend, ensureIsUser, getCurrentUser } from "/node_modules/thin-backend";
+
+const port = 3000;
+const app = express();
+
+app.use(
+  session({
+    secret: process.env.SECRET,
+    resave: false,
+    saveUninitialized: true,
+  })
+);
 
 initThinBackend({
   host: `${BACKEND_URL}`
